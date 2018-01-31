@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reformatter</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="texts">
+        <div class="inputBlock">
+            <textarea onkeyup="processVerification();" id="inpt" rows="22" cols="55"></textarea>
+            <textarea readonly id="info" rows="8" cols="55">Info:</textarea>
+        </div>
+
+    </div>
+    <div class="buttons">
+        <div>
+            <button class="btn" id="butt-butt" onclick="processReformat();">Reformat</button>
+        </div>
+    </div>
+
+    <div id="outputsContainer"></div>
+
+    <script src="clipboard.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
+
