@@ -92,6 +92,11 @@ div.buttons{
 textarea{
     background-color: ghostwhite;
 }
+
+textarea::placeholder {
+    color: lightgray;
+}
+
 .copyBlock{
     display: flex;
     flex-direction: column;
