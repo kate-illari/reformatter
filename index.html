@@ -9,7 +9,32 @@
 <body>
     <div class="texts">
         <div class="inputBlock">
-            <textarea onkeyup="processVerification();" id="inpt" rows="22" cols="55"></textarea>
+            <textarea
+                    onkeyup="processVerification();"
+                    id="inpt"
+                    rows="22"
+                    cols="55"
+                    placeholder="Fill in the info for one or several reelsets from server and click the button to reformat the text to array of reels.
+Any object containing SYM-bols will be treated as one reel:
+{ // Reel : 1 Length : 1
+SYM1,SYM10,SYM11
+}
+
+
+object containing reels and separated with reel name will be treated as reelset:
+-------------------------------------
+Reel Name
+-------------------------------------
+{ // Reel : 1 Length : 514
+SYM1,SYM10,SYM11
+}
+-------------------------------------
+Tratata Reels
+-------------------------------------
+{ // Reel : 2 Length : 1
+SYM3,SYM10,SYM11
+}"
+            ></textarea>
             <textarea readonly id="info" rows="8" cols="55">Info:</textarea>
         </div>
 
