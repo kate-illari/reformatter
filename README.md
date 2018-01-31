@@ -1,2 +1,1 @@
-"# reformatter" 
-"# reformatter" 
+Reformats server reels and reelsets objects to convenient format just in a few clicks.
